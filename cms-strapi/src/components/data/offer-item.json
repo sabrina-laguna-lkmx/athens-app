@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_data_offer_items",
+  "info": {
+    "displayName": "Offer Item",
+    "icon": "cloud"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "learn_more_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    }
+  }
+}

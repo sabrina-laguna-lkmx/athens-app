@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_office_hours",
+  "info": {
+    "displayName": "Office Hours",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "days": {
+      "type": "string"
+    },
+    "hours": {
+      "type": "string"
+    }
+  }
+}

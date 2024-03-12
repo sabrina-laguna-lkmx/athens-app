@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_data_media",
+  "info": {
+    "displayName": "media"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    }
+  }
+}

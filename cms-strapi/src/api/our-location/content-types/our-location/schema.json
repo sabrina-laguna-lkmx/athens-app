@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_locations",
+  "info": {
+    "singularName": "our-location",
+    "pluralName": "our-locations",
+    "displayName": "Our Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "corporate_offices_title": {
+      "type": "string"
+    },
+    "headquarter_location": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.location-item"
+    },
+    "customer_service_centers_title": {
+      "type": "string"
+    },
+    "customer_service_centers_locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.location-item"
+    },
+    "facilities_title": {
+      "type": "string"
+    },
+    "facility_locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.location-item"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_holiday_schedules",
+  "info": {
+    "displayName": "Holiday Schedule"
+  },
+  "options": {},
+  "attributes": {
+    "holidays_list": {
+      "displayName": "Holidays List",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.holidays-list"
+    },
+    "delay_info": {
+      "type": "string"
+    },
+    "delay_exceptions": {
+      "type": "string"
+    }
+  }
+}

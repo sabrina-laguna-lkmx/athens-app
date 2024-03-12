@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_data_holidays_lists",
+  "info": {
+    "displayName": "Holidays List"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    }
+  }
+}

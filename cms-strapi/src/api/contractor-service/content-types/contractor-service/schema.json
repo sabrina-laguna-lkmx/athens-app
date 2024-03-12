@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "contractor_services",
+  "info": {
+    "singularName": "contractor-service",
+    "pluralName": "contractor-services",
+    "displayName": "Contractor Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-list"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.container"
+    }
+  }
+}

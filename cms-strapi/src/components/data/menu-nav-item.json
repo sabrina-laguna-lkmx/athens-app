@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_menu_nav_items",
+  "info": {
+    "displayName": "Main Nav Items",
+    "icon": "cursor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "menu_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.menu-link"
+    }
+  }
+}

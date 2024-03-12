@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "material_reuses",
+  "info": {
+    "singularName": "material-reuse",
+    "pluralName": "material-reuses",
+    "displayName": "Material Reuse"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "repair": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "repurpose_upcycle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "share_community": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "donate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "buy_sell_secondhand": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    }
+  }
+}

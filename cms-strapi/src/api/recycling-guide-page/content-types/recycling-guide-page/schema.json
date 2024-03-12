@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "recycling_guide_pages",
+  "info": {
+    "singularName": "recycling-guide-page",
+    "pluralName": "recycling-guide-pages",
+    "displayName": "Recycling Guide Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "simple_text_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    }
+  }
+}

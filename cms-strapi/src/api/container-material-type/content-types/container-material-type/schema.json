@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "container_material_types",
+  "info": {
+    "singularName": "container-material-type",
+    "pluralName": "container-material-types",
+    "displayName": "Container Material Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "material_type": {
+      "type": "string"
+    }
+  }
+}

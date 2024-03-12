@@ -1,0 +1,108 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "offer_title": {
+      "type": "string",
+      "required": true
+    },
+    "offer_intro": {
+      "type": "text",
+      "required": true
+    },
+    "offer_items": {
+      "displayName": "Offer Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.offer-item",
+      "required": true
+    },
+    "experience_eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "experience_title": {
+      "type": "string",
+      "required": true
+    },
+    "experience_intro": {
+      "type": "string",
+      "required": true
+    },
+    "experiences": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.static",
+      "required": true
+    },
+    "infra_eyebrow": {
+      "type": "string",
+      "required": true
+    },
+    "infra_title": {
+      "type": "string",
+      "required": true
+    },
+    "infra_intro": {
+      "type": "richtext",
+      "required": true
+    },
+    "infra_specifics": {
+      "type": "richtext",
+      "required": true
+    },
+    "earth_commitment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section",
+      "required": true
+    },
+    "earth_commitments_title": {
+      "type": "string",
+      "required": true
+    },
+    "earth_commitment_items": {
+      "displayName": "Earth Commitment Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.earth-commitment-item"
+    },
+    "testimonials_title": {
+      "type": "string",
+      "required": true
+    },
+    "testimonials": {
+      "displayName": "Testimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.testimonial",
+      "required": true
+    },
+    "upcoming_events_title": {
+      "type": "string",
+      "required": true
+    },
+    "upcoming_events_intro": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

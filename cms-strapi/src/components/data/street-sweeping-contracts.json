@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_data_street_sweeping_contracts",
+  "info": {
+    "displayName": "street_sweeping_contracts"
+  },
+  "options": {},
+  "attributes": {
+    "city_contract_label": {
+      "type": "string"
+    },
+    "city_contract_file_url": {
+      "type": "string"
+    }
+  }
+}

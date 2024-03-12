@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_data_organics_waste_examples",
+  "info": {
+    "displayName": "Organics waste example",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon"
+    },
+    "description": {
+      "type": "text"
+    },
+    "examples_list": {
+      "displayName": "Examples List",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.examples-list"
+    }
+  }
+}

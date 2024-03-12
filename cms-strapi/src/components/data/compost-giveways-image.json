@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_compost_giveways_images",
+  "info": {
+    "displayName": "Compost Giveways Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "kind": "singleType",
+  "collectionName": "food_donations",
+  "info": {
+    "singularName": "food-donation",
+    "pluralName": "food-donations",
+    "displayName": "Food Donation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "why_donate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "donation_benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "donation_protection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "what_donate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "date_labels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "how_donate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.organic-recycling-process"
+    },
+    "food_recovery_partner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "select_partner_title": {
+      "type": "text"
+    },
+    "donation_city_contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.food-donation-city-contacts"
+    },
+    "waste_prevention": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "reduction_recovery": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "references": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    }
+  }
+}

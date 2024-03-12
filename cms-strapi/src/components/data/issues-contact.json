@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_data_issues_contacts",
+  "info": {
+    "displayName": "issues_contact"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

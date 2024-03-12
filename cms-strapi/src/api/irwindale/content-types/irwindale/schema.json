@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "irwindales",
+  "info": {
+    "singularName": "irwindale",
+    "pluralName": "irwindales",
+    "displayName": "Irwindale",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "location_map_achievements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.location-map-achievements"
+    }
+  }
+}

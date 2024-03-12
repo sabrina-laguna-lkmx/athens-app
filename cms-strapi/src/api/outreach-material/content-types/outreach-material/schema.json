@@ -1,0 +1,138 @@
+{
+  "kind": "singleType",
+  "collectionName": "outreach_materials",
+  "info": {
+    "singularName": "outreach-material",
+    "pluralName": "outreach-materials",
+    "displayName": "Outreach Material",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "what_goes_where": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section",
+      "required": true
+    },
+    "reuse_repurpose_repair_donate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section",
+      "required": true
+    },
+    "athens_recycling_signage_title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section",
+      "required": true
+    },
+    "athens_recycling_signage_resource": {
+      "displayName": "Recycling Signage Resource",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.recycling-signage-resource",
+      "required": true
+    },
+    "hazardous_waste_cheat_sheets_title": {
+      "type": "string",
+      "required": true
+    },
+    "hazardous_waste_cheat_sheets_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "hazardous_waste_cheat_sheets_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hazardous_waste_cheat_sheets_resources": {
+      "displayName": "Recycling Signage Resource",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.recycling-signage-resource",
+      "required": true,
+      "min": 2
+    },
+    "additional_tenant_signage_title": {
+      "type": "string",
+      "required": true
+    },
+    "additional_tenant_signage_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "additional_tenant_signage_resources": {
+      "displayName": "Recycling Signage Resource",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.recycling-signage-resource",
+      "required": true
+    },
+    "zero_waste_school_program_language_title": {
+      "type": "string",
+      "required": true
+    },
+    "zero_waste_school_program_signage_resource": {
+      "displayName": "Recycling Signage Resource",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.recycling-signage-resource",
+      "required": true
+    },
+    "measure_your_footprint_title": {
+      "type": "string",
+      "required": true
+    },
+    "environmentally_preferable_purchasing_title": {
+      "type": "string",
+      "required": true
+    },
+    "environmentally_preferable_purchasing_resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.external-resources",
+      "required": true
+    },
+    "climate_and_waste_calculators_title": {
+      "type": "string",
+      "required": true
+    },
+    "climate_and_waste_calculators_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "climate_and_waste_calculators_resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.external-resources",
+      "required": true
+    },
+    "additional_online_resources_title": {
+      "type": "string",
+      "required": true
+    },
+    "additional_online_resources_resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.external-resources",
+      "required": true
+    },
+    "local_environmental_resources": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

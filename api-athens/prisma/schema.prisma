@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  user_id        String          @id(map: "user_pk") @db.VarChar(36)
+  email          String          @unique
+  salt           String          @db.VarChar()
+  hash           String          @db.VarChar()
+  created_at     DateTime        @db.Timestamp()
+  update_at      DateTime        @db.Timestamp()
+  isActive       Boolean         @default(false) @db.Boolean
+  paymentMethods PaymentMethod[]
+}
+
+model Token_Reset_Password {
+  id         String   @id(map: "token_reset_password_pk") @db.VarChar(36)
+  token      String   @db.VarChar
+  created_at DateTime @db.Timestamp(6)
+  userId     String   @db.VarChar(36)
+}
+
+model Token_active_account {
+  id         String   @id(map: "token_active_account_pk") @db.VarChar(36)
+  token      String   @db.VarChar
+  created_at DateTime @db.Timestamp(6)
+  userId     String   @db.VarChar(36)
+}
+
+model PaymentMethod {
+  id              String  @id @db.VarChar(36)
+  user            User    @relation(fields: [user_id], references: [user_id])
+  user_id         String
+  accountType     String  @db.VarChar(255)
+  billingAddress1 String  @db.VarChar(255)
+  billingAddress2 String? @db.VarChar(255)
+  city            String  @db.VarChar(255)
+  creditCard      String  @db.VarChar(16)
+  cvv             String? @db.VarChar(4)
+  firstName       String  @db.VarChar(50)
+  lastName        String  @db.VarChar(50)
+  midInit         String  @db.VarChar(1)
+  month           String? @db.VarChar(2)
+  state           String  @db.VarChar(50)
+  year            String? @db.VarChar(4)
+  zipCode         String  @db.VarChar(10)
+  token           String  @db.VarChar(150)
+}

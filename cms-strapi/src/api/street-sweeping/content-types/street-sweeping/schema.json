@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "street_sweepings",
+  "info": {
+    "singularName": "street-sweeping",
+    "pluralName": "street-sweepings",
+    "displayName": "Street Sweeping",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "text"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "ideal_property_type": {
+      "displayName": "ideal_property_types",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.ideal-property-types"
+    },
+    "contracts_list": {
+      "displayName": "contracts_list",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.contracts-list"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "office_hours": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.office-hours"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-list"
+    }
+  }
+}

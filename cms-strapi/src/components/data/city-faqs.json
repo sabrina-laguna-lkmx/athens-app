@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_data_city_faqs",
+  "info": {
+    "displayName": "City FAQS"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-link"
+    }
+  }
+}

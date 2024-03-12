@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_tips",
+  "info": {
+    "singularName": "home-tip",
+    "pluralName": "home-tips",
+    "displayName": "Home Tip",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "intro_media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tips_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.tips-section"
+    },
+    "reference_quotes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.reference-quote-item"
+    }
+  }
+}

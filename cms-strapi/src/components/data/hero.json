@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_data_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "priceTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

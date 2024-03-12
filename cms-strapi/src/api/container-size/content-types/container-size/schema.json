@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "container_sizes",
+  "info": {
+    "singularName": "container-size",
+    "pluralName": "container-sizes",
+    "displayName": "Container Size"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bin_volume": {
+      "type": "string"
+    },
+    "bin_height": {
+      "type": "string"
+    },
+    "bin_width": {
+      "type": "string"
+    },
+    "bin_length": {
+      "type": "string"
+    }
+  }
+}

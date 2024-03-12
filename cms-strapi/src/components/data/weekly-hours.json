@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_data_weekly_hours",
+  "info": {
+    "displayName": "Weekly Hours",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hours": {
+      "type": "richtext"
+    }
+  }
+}

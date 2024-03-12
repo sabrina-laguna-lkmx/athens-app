@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "law_ab_341s",
+  "info": {
+    "singularName": "law-ab-341",
+    "pluralName": "law-ab-341s",
+    "displayName": "Law AB341",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "goal_reach": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "faqs_resources": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.faqs-resources"
+    }
+  }
+}

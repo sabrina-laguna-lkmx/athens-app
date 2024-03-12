@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_data_location_items",
+  "info": {
+    "displayName": "Location Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "address_google_url": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-link"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.phone-number"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "learn_more_link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-link"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_navs",
+  "info": {
+    "singularName": "footer-nav",
+    "pluralName": "footer-navs",
+    "displayName": "Footer Nav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "simple_nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-nav"
+    }
+  }
+}

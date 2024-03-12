@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_data_tips_sections",
+  "info": {
+    "displayName": "Tips Section",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tip_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.tip-item"
+    }
+  }
+}

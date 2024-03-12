@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_data_location_map_achievements",
+  "info": {
+    "displayName": "Location Map Achievements",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "achievements_title": {
+      "type": "string"
+    },
+    "achievements_subtitle": {
+      "type": "string"
+    },
+    "achievements_text": {
+      "type": "richtext"
+    },
+    "locations_map": {
+      "displayName": "Locations Map Illustration",
+      "type": "component",
+      "repeatable": false,
+      "component": "data.locations-map-illustration"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_data_news_pages",
+  "info": {
+    "displayName": "News Page",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "richtext"
+    },
+    "featured_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "article_content": {
+      "type": "richtext"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.news-category"
+    },
+    "publish_date": {
+      "type": "date"
+    },
+    "featured_image_alt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "residential_services",
+  "info": {
+    "singularName": "residential-service",
+    "pluralName": "residential-services",
+    "displayName": "Residential Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-link"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "featured_services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.service"
+    }
+  }
+}

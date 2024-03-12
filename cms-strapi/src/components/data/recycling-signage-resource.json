@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_data_recycling_signage_resources",
+  "info": {
+    "displayName": "Recycling Signage Resource",
+    "icon": "moon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon"
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "resource": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.file-download"
+    }
+  }
+}

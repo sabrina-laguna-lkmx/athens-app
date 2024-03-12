@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "law_sb_1383s",
+  "info": {
+    "singularName": "law-sb-1383",
+    "pluralName": "law-sb-1383s",
+    "displayName": "Law SB1383",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "what_is": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "apply_to": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "new_regulation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "why_compost": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "best_practices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "downloadable_resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.file-download",
+      "required": true
+    },
+    "business_impact_pt1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "business_impact_url": {
+      "type": "string"
+    },
+    "business_impact_pt2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "to_know_title": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    }
+  }
+}

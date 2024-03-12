@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_data_special_waste_services",
+  "info": {
+    "displayName": "special_waste_service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "offers_list": {
+      "displayName": "List String",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.list-string"
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon"
+    }
+  }
+}

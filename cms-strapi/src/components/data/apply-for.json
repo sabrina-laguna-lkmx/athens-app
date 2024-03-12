@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_data_apply_fors",
+  "info": {
+    "displayName": "apply_for",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

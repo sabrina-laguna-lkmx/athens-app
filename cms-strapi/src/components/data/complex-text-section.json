@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_data_complex_text_sections",
+  "info": {
+    "displayName": "Complex text section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "items_list_title": {
+      "type": "string"
+    },
+    "items_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.list-string"
+    },
+    "items_list_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

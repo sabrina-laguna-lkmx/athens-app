@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_data_faqs_resources",
+  "info": {
+    "displayName": "FAQS Resources",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "downloadable_resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.file-download"
+    }
+  }
+}

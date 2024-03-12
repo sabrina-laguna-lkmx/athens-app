@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_data_city_service_details",
+  "info": {
+    "displayName": "City Service Details",
+    "icon": "pencil",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "hours_of_operation": {
+      "type": "richtext",
+      "required": true
+    },
+    "holiday_schedule": {
+      "type": "richtext",
+      "required": true
+    },
+    "special_announcement": {
+      "type": "richtext"
+    },
+    "special_announcement_information": {
+      "type": "richtext"
+    },
+    "special_announcement_video_youtube_url": {
+      "type": "string"
+    },
+    "collection_time": {
+      "type": "richtext"
+    }
+  }
+}

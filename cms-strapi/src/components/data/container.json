@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_data_containers",
+  "info": {
+    "displayName": "container",
+    "icon": "store",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "container_key": {
+      "type": "string"
+    },
+    "bin_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bin-type-name.bin-type-name"
+    },
+    "bin_type_image": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image.image"
+    },
+    "container_uses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::container-use.container-use"
+    },
+    "container_sizes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::container-size.container-size"
+    },
+    "material_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.material-list"
+    }
+  }
+}

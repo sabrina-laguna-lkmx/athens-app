@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "office_tips",
+  "info": {
+    "singularName": "office-tip",
+    "pluralName": "office-tips",
+    "displayName": "Office Tip",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "intro_media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tips_section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.tips-section"
+    }
+  }
+}

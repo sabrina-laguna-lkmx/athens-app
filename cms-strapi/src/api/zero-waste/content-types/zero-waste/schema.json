@@ -1,0 +1,89 @@
+{
+  "kind": "singleType",
+  "collectionName": "zero_wastes",
+  "info": {
+    "singularName": "zero-waste",
+    "pluralName": "zero-wastes",
+    "displayName": "Zero Waste",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "what_is_zero_waste": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.process-section"
+    },
+    "why_zero_waste": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "how_reduce_waste": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "reduce_waste_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-text-item"
+    },
+    "value_composting": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "american_organics_about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "compost_giveways": {
+      "type": "richtext"
+    },
+    "at_home_composting_resources": {
+      "type": "richtext"
+    },
+    "intro_subtitle": {
+      "type": "string"
+    },
+    "intro_message": {
+      "type": "richtext"
+    },
+    "at_home_composting_resources_image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-text-item"
+    },
+    "compost_giveways_image": {
+      "displayName": "Compost Giveways Image",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.compost-giveways-image"
+    },
+    "did_you_know": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "american_organics_accepted_waste": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.waste-list"
+    },
+    "american_organics_prohibited_waste": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.waste-list"
+    }
+  }
+}

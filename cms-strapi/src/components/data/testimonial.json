@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_data_testimonials",
+  "info": {
+    "displayName": "Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "customer_full_name": {
+      "type": "string",
+      "required": true
+    },
+    "customer_title": {
+      "type": "string",
+      "required": true
+    },
+    "customer_company": {
+      "type": "string"
+    },
+    "testimonial": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

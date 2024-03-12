@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_data_counties",
+  "info": {
+    "displayName": "County"
+  },
+  "options": {},
+  "attributes": {
+    "hazardous_waste_phone_number": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.phone-number"
+    }
+  }
+}

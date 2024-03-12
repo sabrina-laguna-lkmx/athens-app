@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "special_wastes",
+  "info": {
+    "singularName": "special-waste",
+    "pluralName": "special-wastes",
+    "displayName": "Special Waste",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "special_waste_services": {
+      "displayName": "special_waste_service",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.special-waste-service"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    }
+  }
+}

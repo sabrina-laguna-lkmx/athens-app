@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_data_ideal_property_types",
+  "info": {
+    "displayName": "ideal_property_types"
+  },
+  "options": {},
+  "attributes": {
+    "property_type": {
+      "type": "string"
+    }
+  }
+}

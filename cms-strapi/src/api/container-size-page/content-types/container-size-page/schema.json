@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "container_size_pages",
+  "info": {
+    "singularName": "container-size-page",
+    "pluralName": "container-size-pages",
+    "displayName": "Container Size Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "containers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.container-item"
+    }
+  }
+}

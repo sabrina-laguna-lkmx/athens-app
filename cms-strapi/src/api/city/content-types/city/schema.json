@@ -1,0 +1,135 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cities",
+  "info": {
+    "singularName": "city",
+    "pluralName": "cities",
+    "displayName": "City",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "residential_services_available": {
+      "type": "boolean",
+      "default": false
+    },
+    "business_services_available": {
+      "type": "boolean",
+      "default": false
+    },
+    "open_market": {
+      "type": "boolean",
+      "default": false
+    },
+    "county": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.county"
+    },
+    "customer_service_line_telephone_number": {
+      "type": "string"
+    },
+    "collection_map_schedule_pdf_url": {
+      "type": "string"
+    },
+    "container_organics": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.material-list"
+    },
+    "container_landfill": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.material-list"
+    },
+    "container_recycling": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.material-list"
+    },
+    "container_prohibited": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.material-list"
+    },
+    "bulky_pick_up_available": {
+      "type": "boolean"
+    },
+    "bulky_items_examples": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.material-list"
+    },
+    "street_sweeping_available": {
+      "type": "boolean"
+    },
+    "street_sweeping_map_url": {
+      "type": "string"
+    },
+    "holiday_tree_recycling_available": {
+      "type": "boolean"
+    },
+    "city_faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.link-list"
+    },
+    "residential_recycling_guide": {
+      "type": "boolean",
+      "default": false
+    },
+    "residential_stream_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stream.stream"
+    },
+    "business_recycling_guide": {
+      "type": "boolean",
+      "default": false
+    },
+    "business_stream_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stream.stream"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "front_load_3_yard_bin_available": {
+      "type": "boolean"
+    },
+    "compactors_lease_available": {
+      "type": "boolean"
+    },
+    "roll_off_available": {
+      "type": "boolean"
+    },
+    "residential_service_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.city-service-details"
+    },
+    "business_service_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.city-service-details"
+    },
+    "residential_customer_service_available": {
+      "type": "boolean",
+      "default": false
+    },
+    "business_customer_service_available": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

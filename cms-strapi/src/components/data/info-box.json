@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_data_info_boxes",
+  "info": {
+    "displayName": "Info Box",
+    "icon": "grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    },
+    "location_maps_url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "contact_phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "weekly_hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.weekly-hours"
+    }
+  }
+}

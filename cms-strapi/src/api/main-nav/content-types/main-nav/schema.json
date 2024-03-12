@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_navs",
+  "info": {
+    "singularName": "main-nav",
+    "pluralName": "main-navs",
+    "displayName": "Main Nav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.menu-nav-item"
+    }
+  }
+}

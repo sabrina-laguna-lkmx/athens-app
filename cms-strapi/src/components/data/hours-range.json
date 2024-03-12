@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_hours_ranges",
+  "info": {
+    "displayName": "Hours Range"
+  },
+  "options": {},
+  "attributes": {
+    "start_hour": {
+      "type": "string"
+    },
+    "start_minute": {
+      "type": "string"
+    },
+    "end_hour": {
+      "type": "string"
+    },
+    "end_minute": {
+      "type": "string"
+    }
+  }
+}

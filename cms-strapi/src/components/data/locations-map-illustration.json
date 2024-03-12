@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_locations_map_illustrations",
+  "info": {
+    "displayName": "Locations Map Illustration"
+  },
+  "options": {},
+  "attributes": {
+    "location_name": {
+      "type": "string"
+    },
+    "location_map_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

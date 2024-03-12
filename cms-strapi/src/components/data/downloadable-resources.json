@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_data_downloadable_resources",
+  "info": {
+    "displayName": "Downloadable Resources",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.simple-link"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_term_items",
+  "info": {
+    "displayName": "Term Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "term": {
+      "type": "text"
+    },
+    "definition": {
+      "type": "richtext"
+    }
+  }
+}

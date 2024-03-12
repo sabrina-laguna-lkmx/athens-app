@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_data_services",
+  "info": {
+    "displayName": "service",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "service_intro": {
+      "type": "string"
+    },
+    "service_description": {
+      "type": "richtext"
+    },
+    "service_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "service_title": {
+      "type": "string"
+    }
+  }
+}

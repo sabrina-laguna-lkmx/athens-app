@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_simple_lists",
+  "info": {
+    "displayName": "Simple Service",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "service_name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_data_external_resources",
+  "info": {
+    "displayName": "External Resources"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "resource_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

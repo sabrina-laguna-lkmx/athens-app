@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_data_faq_calmets",
+  "info": {
+    "displayName": "FAQ Calmet"
+  },
+  "options": {},
+  "attributes": {
+    "faq_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.faq-item"
+    },
+    "faq_title": {
+      "type": "string"
+    }
+  }
+}

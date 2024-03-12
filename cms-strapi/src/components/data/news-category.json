@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_data_news_categories",
+  "info": {
+    "displayName": "News Category",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_data_statics",
+  "info": {
+    "displayName": "Statistic",
+    "icon": "attachment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

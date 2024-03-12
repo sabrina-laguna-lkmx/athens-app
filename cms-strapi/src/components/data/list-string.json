@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_data_list_strings",
+  "info": {
+    "displayName": "Short String Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

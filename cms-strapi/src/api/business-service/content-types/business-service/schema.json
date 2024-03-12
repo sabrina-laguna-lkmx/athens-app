@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "business_services",
+  "info": {
+    "singularName": "business-service",
+    "pluralName": "business-services",
+    "displayName": "Business Services"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "featured_services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.service"
+    }
+  }
+}

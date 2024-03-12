@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_data_examples_lists",
+  "info": {
+    "displayName": "Examples List",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

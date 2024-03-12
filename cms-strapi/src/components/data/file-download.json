@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_data_file_downloads",
+  "info": {
+    "displayName": "File Download",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "English",
+        "Spanish",
+        "Russian",
+        "Armenian"
+      ]
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "Horizontal",
+        "Vertical"
+      ]
+    },
+    "resource_link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    }
+  }
+}

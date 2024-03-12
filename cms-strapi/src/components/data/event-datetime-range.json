@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_data_event_datetime_ranges",
+  "info": {
+    "displayName": "Event Datetime Range",
+    "icon": "bell"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "start_hour": {
+      "type": "time"
+    },
+    "end_hour": {
+      "type": "time"
+    }
+  }
+}

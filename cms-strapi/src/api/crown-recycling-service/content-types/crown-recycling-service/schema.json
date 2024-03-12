@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "crown_recycling_services",
+  "info": {
+    "singularName": "crown-recycling-service",
+    "pluralName": "crown-recycling-services",
+    "displayName": "Crown Recycling Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "contact_boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.info-box"
+    },
+    "location_map_achievements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.location-map-achievements"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_data_food_donation_city_contact_items",
+  "info": {
+    "displayName": "Food Donation City Contact Item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "contact_name": {
+      "type": "text"
+    },
+    "website": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "description": {
+      "type": "text"
+    },
+    "address_google_maps_url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

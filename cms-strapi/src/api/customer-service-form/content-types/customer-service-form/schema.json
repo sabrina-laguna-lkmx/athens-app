@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "customer_service_forms",
+  "info": {
+    "singularName": "customer-service-form",
+    "pluralName": "customer-service-forms",
+    "displayName": "Customer Service Form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    }
+  }
+}

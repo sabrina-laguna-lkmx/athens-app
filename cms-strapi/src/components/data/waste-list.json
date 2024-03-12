@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_data_waste_lists",
+  "info": {
+    "displayName": "Waste List",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "waste_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.waste-item"
+    }
+  }
+}

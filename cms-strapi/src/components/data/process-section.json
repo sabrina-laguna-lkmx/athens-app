@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_process_sections",
+  "info": {
+    "displayName": "Process Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "process_steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.process-step"
+    },
+    "additional_info": {
+      "type": "richtext"
+    }
+  }
+}

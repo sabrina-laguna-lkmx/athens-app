@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "container_uses",
+  "info": {
+    "singularName": "container-use",
+    "pluralName": "container-uses",
+    "displayName": "Container Uses",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "container_use": {
+      "type": "string"
+    }
+  }
+}

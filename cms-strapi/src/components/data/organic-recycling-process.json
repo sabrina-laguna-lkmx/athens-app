@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_data_organic_recycling_processes",
+  "info": {
+    "displayName": "Process Section",
+    "description": "",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "process_steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.process-step"
+    },
+    "title": {
+      "type": "string"
+    },
+    "additional_info": {
+      "type": "richtext"
+    }
+  }
+}

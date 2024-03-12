@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_data_landfills",
+  "info": {
+    "displayName": "Landfill",
+    "icon": "cube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "opened_year": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "accepted_materials": {
+      "type": "component",
+      "component": "data.list-string",
+      "repeatable": true
+    },
+    "equipment": {
+      "type": "component",
+      "component": "data.list-string",
+      "repeatable": true
+    },
+    "address": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link"
+    },
+    "operating_hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.weekly-hours"
+    },
+    "swis_number": {
+      "type": "text"
+    },
+    "size": {
+      "type": "text"
+    },
+    "employees": {
+      "type": "text"
+    }
+  }
+}

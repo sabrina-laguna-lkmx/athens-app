@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_data_reference_quote_items",
+  "info": {
+    "displayName": "Reference Quote Item",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "text"
+    },
+    "author_detail": {
+      "type": "text"
+    }
+  }
+}

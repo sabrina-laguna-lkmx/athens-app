@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_data_container_organics",
+  "info": {
+    "displayName": "Container Organics"
+  },
+  "options": {},
+  "attributes": {
+    "material_list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.material-list"
+    }
+  }
+}

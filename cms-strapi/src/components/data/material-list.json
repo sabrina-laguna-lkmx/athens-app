@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_material_lists",
+  "info": {
+    "displayName": "Material List",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "materials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::material.material"
+    }
+  }
+}

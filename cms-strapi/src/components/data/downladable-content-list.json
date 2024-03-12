@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_data_downladable_content_lists",
+  "info": {
+    "displayName": "Downladable-content-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "file_downloads": {
+      "type":"component",
+      "repeatable": true,
+      "component":"data.no-icon-simple-link"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_data_simple_text_sections",
+  "info": {
+    "displayName": "Simple Text Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": false
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos", "images"]
+    },
+    "title_design": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "media_position": {
+      "type": "enumeration",
+      "enum": ["right", "left", "above", "below"]
+    }
+  }
+}

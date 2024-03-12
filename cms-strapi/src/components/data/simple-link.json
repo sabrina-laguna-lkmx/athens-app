@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_data_simple_links",
+  "info": {
+    "displayName": "Simple Link",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": false
+    },
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon"
+    }
+  }
+}

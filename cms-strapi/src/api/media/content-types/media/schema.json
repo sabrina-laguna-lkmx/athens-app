@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "medias",
+  "info": {
+    "singularName": "media",
+    "pluralName": "medias",
+    "displayName": "Media",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "resources_title": {
+      "type": "string"
+    },
+    "downloads_title": {
+      "type": "string"
+    },
+    "downladable_content_list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.downladable-content-list"
+    },
+    "youtube_resources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.media"
+    }
+  }
+}

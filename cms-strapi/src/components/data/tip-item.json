@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_data_tip_items",
+  "info": {
+    "displayName": "Tip Item",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

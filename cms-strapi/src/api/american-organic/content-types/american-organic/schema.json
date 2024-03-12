@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "american_organics",
+  "info": {
+    "singularName": "american-organic",
+    "pluralName": "american-organics",
+    "displayName": "American Organic",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero"
+    },
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "composting_process_name": {
+      "type": "string"
+    },
+    "composting_process_title": {
+      "type": "string"
+    },
+    "composting_process_steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.complex-text-section"
+    },
+    "contact_boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.info-box"
+    },
+    "location_map_achievements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.location-map-achievements"
+    }
+  }
+}

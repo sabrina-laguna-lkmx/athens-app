@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_data_simple_text_items",
+  "info": {
+    "displayName": "Simple Text Item"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

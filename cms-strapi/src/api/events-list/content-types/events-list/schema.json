@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_lists",
+  "info": {
+    "singularName": "events-list",
+    "pluralName": "events-lists",
+    "displayName": "Events List",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.hero",
+      "required": true
+    },
+    "event_items": {
+      "displayName": "Event",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.event",
+      "required": true
+    },
+    "events_info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-text-section"
+    },
+    "event_types": {
+      "displayName": "Event Type Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.event-type-item",
+      "required": true
+    }
+  }
+}

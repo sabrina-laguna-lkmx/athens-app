@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "rent_a_containers",
+  "info": {
+    "singularName": "rent-a-container",
+    "pluralName": "rent-a-containers",
+    "displayName": "Rent A Container",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "data.hero"
+    }
+  }
+}

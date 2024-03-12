@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_data_waste_items",
+  "info": {
+    "displayName": "Waste Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::icon.icon"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_data_contracts_lists",
+  "info": {
+    "displayName": "contracts_list"
+  },
+  "options": {},
+  "attributes": {
+    "street_sweeping_contracts": {
+      "displayName": "street_sweeping_contracts",
+      "type": "component",
+      "repeatable": true,
+      "component": "data.street-sweeping-contracts"
+    }
+  }
+}

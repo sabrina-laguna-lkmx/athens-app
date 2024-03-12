@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_data_events",
+  "info": {
+    "displayName": "Event",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "event_name": {
+      "type": "string",
+      "required": true
+    },
+    "venue_name": {
+      "type": "string"
+    },
+    "event_image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "address_google_maps_url": {
+      "type": "string",
+      "required": true
+    },
+    "event_content": {
+      "type": "richtext",
+      "required": true
+    },
+    "add_to_google_calendar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link",
+      "required": true
+    },
+    "add_to_icalendar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.simple-link",
+      "required": true
+    },
+    "start_date": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.event-datetime-range",
+      "required": true
+    },
+    "end_date": {
+      "type": "component",
+      "repeatable": false,
+      "component": "data.event-datetime-range"
+    }
+  }
+}
